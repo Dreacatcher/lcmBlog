@@ -1,0 +1,114 @@
+#home{	
+	min-width:2rem;
+	max-width:8rem;
+	width: 100%;
+	margin:0 auto;
+	font-size: .20rem;
+	height: auto;
+	clear: both;
+	overflow: hidden;
+	text-align: center;
+}
+#home .header{border: .02rem solid #ececec;padding: .2rem;}
+#home h1{font-size: .20rem;}
+#home p{font-size: .20rem;}
+#home .left_cont{
+	width:1.5rem;
+	float: left;
+	height: auto;
+	text-align: right;
+	padding-right:.2rem; 
+	font-size: .20rem;
+	border-right: .02rem solid #ececec;
+}
+#home .left_cont a{
+	display: block;
+	padding: .1rem 0;
+
+}
+#home .right_cont{
+	min-width: 0.2rem;
+    max-width: 5.5rem;
+    width: 100%;
+	float: left;
+	height: auto;
+	font-size: .20rem;
+	text-align: left;
+	padding-left:.2rem; 
+	font-size: .20rem;
+	
+}
+#home .right_cont p{
+	width:100%;
+	float: left;
+	height: auto;
+	font-size: .20rem;
+	text-align: center;
+	padding-left:.2rem; 
+	font-size: .20rem;
+	
+}
+/* 注册{{{*/
+.RG_main{
+	max-width:8rem;
+	margin:0 auto;
+	font-size: .20rem;
+}
+.RG_main h1{
+	font-size: .20rem;
+	text-align: center;
+	padding-bottom: .2rem;
+}
+.RG_main input {
+	font-size: .18rem;
+}
+.RG_main .label{
+	padding: .05rem 0; 
+	text-align: center;
+}
+.RG_main .labelLeft{
+	font-size: .20rem;
+	min-width:1rem;
+	max-width:3rem;
+	text-align: right;
+	margin-right:0.1rem; 
+	display: inline-block;
+}
+.RG_main .submit{
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+/*注册}}} */
+
+/*登陆{{*/
+.LG_main{
+	max-width:8rem;
+	margin:0 auto;
+	font-size: .20rem;
+}
+.LG_main h1{
+	font-size: .20rem;
+	text-align: center;
+	padding: .2rem 0;
+}
+.LG_main input {
+	font-size: .18rem;
+}
+.LG_main .label{
+	padding: .05rem 0; 
+	text-align: center;
+}
+.LG_main .label{
+	padding: .05rem 0; 
+	text-align: center;
+}
+.LG_main .labelLeft{
+	font-size: .20rem;
+	min-width:1rem;
+	max-width:3rem;
+	text-align: right;
+	margin-right:0.1rem; 
+	display: inline-block;
+}
+/*登陆}}*/

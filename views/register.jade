@@ -1,0 +1,26 @@
+extends layout
+
+block content
+	.RG_main
+		h1  #{title}
+		
+		form(action="register" method="post" )
+			p.label
+				span.labelLeft 用户名:
+				
+				input(id="name" name="name" type="text")
+			p.label
+				span.labelLeft  密码:
+				
+				input(id="password" name="password" type="password")
+			p.label
+				span.labelLeft  确认密码:
+				
+				input(id="confirmPassword" name="confirmPassword" type="password")
+			p.label
+				span.labelLeft  邮箱:
+				
+				input(id="email" name="email" type="text")
+			p.label
+				input(class="submit" type="submit" value="注册")
+			

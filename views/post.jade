@@ -1,0 +1,25 @@
+extends layout
+
+block content
+	.LG_main
+		h1 Welcome to #{title}
+		p
+			span 上传：
+				a(title="上传" href="upload") 上传
+
+		form(action="post" method="post")
+			p
+				span 标题：
+				input(type="text" name="title")
+				br
+
+			p
+				span 内容：
+				textarea( name="post" rows="20" cols="100" type="text")
+				br
+			p
+				input(type="submit" value="发表")
+				br
+
+			
+		

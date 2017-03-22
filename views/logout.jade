@@ -1,0 +1,15 @@
+extends layout
+
+block content
+	.LG_main
+		h1 Welcome to #{title}
+		form(action="login" method="post")
+			p.label
+				span.labelLeft 用户名:
+				input(id="name" name="name" type="text")
+			p.label
+				span.labelLeft 密码:
+				input(id="password" name="password" type="password")		
+			p.label 
+				input(type="submit" value="登陆")
+		

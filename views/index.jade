@@ -1,0 +1,32 @@
+extends share/_layout
+
+block content
+
+	div.con#home
+		.header
+			h1= title
+			p 欢迎来到陆朝明的个人网站#{title}
+		.left_cont
+			a(href="/" title="主页") 主页
+			- if (user)
+				a(href="post" title="发表")	发表
+				a(href="logout" title="登出") 登出
+			- else
+				a(href="login" title="登陆") 登陆
+				a(href="register" title="注册") 注册
+			
+		.right_cont
+			- if (success)
+				p #{success}
+			- if (error)
+				p #{error}
+		- if (user)	
+			- each post, key in posts
+				h2 #{post.title}
+				p(class="info")
+					|作者：
+					a(href="#") #{post.name} 日期：#{post.time.minute}
+				div #{post.post}
+
+
+				
